@@ -1,0 +1,14 @@
+<div class="container">
+  <% if @survey.nil? %>
+    <p>
+      This survey is no longer available
+    </p>
+  <% elsif @survey.avaliable_for_participant?(@participant) %>
+    <%= render 'form' %>
+  <% else %>
+    <script>
+      window.alert("Your attempts is limitted for this Quiz")
+      window.location.href = "/surveys";
+    </script>
+  <% end %>
+</div>

@@ -1,0 +1,17 @@
+I"Ç(function() {
+  $(document).on("ready page:load", function() {
+    var modal_options, new_user;
+    new_user = $('#submit-name-modal').data('new-user');
+    modal_options = new_user ? {
+      backdrop: 'static'
+    } : {
+      show: false
+    };
+    $('#submit-name-modal').modal(modal_options);
+    return $('#submit-name-modal').on('shown.bs.modal', function() {
+      return $('.user-form').enableClientSideValidations();
+    });
+  });
+
+}).call(this);
+:ET

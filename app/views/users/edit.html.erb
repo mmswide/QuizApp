@@ -1,0 +1,22 @@
+<% provide(:title, 'Update profile') %>
+<h1>Sign up</h1>
+
+<%= form_for(@user) do |f| %>
+	<%= render 'shared/error_messages' %>
+	<%= f.label :name %>
+    <%= f.text_field :name %>
+    <br><br>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+    <br><br>
+
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+    <br><br>
+
+    <%= f.label :password_confirmation, "Confirmation" %>
+    <%= f.password_field :password_confirmation %>
+    <br><br>
+
+    <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
+<% end %>

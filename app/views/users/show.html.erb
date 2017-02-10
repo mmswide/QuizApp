@@ -1,0 +1,75 @@
+<div class="container">
+  <div class="row">
+  <div class="col-sm-3"></div>
+
+    <div class="col-sm-6">
+    <br>
+    <br>
+<h4>User Name:&nbsp;&nbsp;</h4><%= @user.name %>&nbsp;&nbsp;<%= @user.lastname %><br>
+<h4>Email:&nbsp;&nbsp;</h4><%= @user.email %><br><br><br>
+<% if @attempt==nil %>
+<h4>User have not any attempt</h4>
+<% else %>
+
+
+          <table class='table table-hover'>
+            <thead>
+            <tr>
+              <th>Quiz title</th>
+              <th>Description</th>
+              <th>Score</th>
+              <th>Question with result</th>
+              <th>Attemps</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% @attempt.each do |attemp| %>
+                <tr>
+                  <td><%= attemp.survey.name %></td>
+                  <td><small>Quiz description:&nbsp;<%= attemp.survey.description %></small></td>
+                  <%
+                    total_answer = 0
+                    attemp.answers.each do |answer|
+                        answer.question.options.each do |option|
+                          answer1=answered_count(option.id)
+                          total_answer += answer1
+                        end
+                   end
+
+                  %>
+                  <td><%= ((total_answer-score_calculate(attemp.survey_id))*0.5+score_calculate(attemp.survey_id))/attemp.survey.attempts_number.to_f*100 %>&nbsp;%</td>
+
+                  <td>
+
+                    <% attemp.answers.each do |answer| %>
+
+                          <p class="question"> <%= answer.question.text %> </p>
+                          <ul class="options">
+                            <% answer.question.options.each do |option| %>
+                                <li class="radio">
+                                  <label>
+                                    <%= check_box_tag '', '', the_chosen_one?(answer, option), disabled: true %>
+                                    <% color = get_color_of_option(answer, option) %>
+                                    <span class="<%= color %> <%= the_chosen_one?(answer, option) %>"> <%= option.text %> <%= get_weight(option) %> </span>
+                                  </label>
+                                  <p class="answers-number"> <%= number_of_people_who_also_answered(option.id) %> </p>
+                                </li>
+                            <% end %>
+                          </ul>
+
+                    <% end %>
+
+
+                  </td>
+                  <td><%= attemp.survey.attempts_number %></td>
+
+                </tr>
+            <% end %>
+            </tbody>
+          </table>
+
+<% end %>
+    </div>
+  <div class="col-sm-3"></div>
+ </div>
+</div>

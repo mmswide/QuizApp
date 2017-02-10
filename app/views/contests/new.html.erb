@@ -1,0 +1,8 @@
+<% if @survey.available_for_participant?(@participant) %>
+    <%= render 'form' %>
+<% else %>
+    Uupss, <%= @participant.name %> you have reach the maximum number of
+    attempts for <%= @survey.name %>
+<% end %>
+
+
