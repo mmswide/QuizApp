@@ -1674,3 +1674,203 @@
 [2017-02-09 13:28:23 +0100 gabris-iMac.local (75827)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
 [2017-02-09 13:28:29 +0100 gabris-iMac.local (75827)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
 [2017-02-09 13:28:31 +0100 gabris-iMac.local (75826)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Reading configuration from config/newrelic.yml (/Users/lionelcui/workspace/ror_projects/QuizApp)
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : New Relic Agent Developer Mode enabled.
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Environment: development
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : No known dispatcher detected.
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Application: My Application (Development)
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Installing ActiveJob instrumentation
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Installing Net instrumentation
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-22 23:44:43 +0800 Lionels-Mac.local (61563)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-22 23:44:44 +0800 Lionels-Mac.local (61563)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-22 23:44:44 +0800 Lionels-Mac.local (61563)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-22 23:44:44 +0800 Lionels-Mac.local (61563)] INFO : Installing Rails 4 view instrumentation
+[2017-02-22 23:44:44 +0800 Lionels-Mac.local (61563)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-22 23:44:44 +0800 Lionels-Mac.local (61563)] INFO : Finished instrumentation
+[2017-02-22 23:44:44 +0800 Lionels-Mac.local (61563)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-22 23:44:48 +0800 Lionels-Mac.local (61563)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-22 23:44:53 +0800 Lionels-Mac.local (61593)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-22 23:44:53 +0800 Lionels-Mac.local (61593)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-22 23:44:53 +0800 Lionels-Mac.local (61593)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-22 23:44:55 +0800 Lionels-Mac.local (61592)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-22 23:44:55 +0800 Lionels-Mac.local (61592)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-22 23:44:55 +0800 Lionels-Mac.local (61592)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-22 23:44:58 +0800 Lionels-Mac.local (61593)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-22 23:44:59 +0800 Lionels-Mac.local (61592)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : Reading configuration from config/newrelic.yml (/Users/lionelcui/workspace/ror_projects/QuizApp)
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : New Relic Agent Developer Mode enabled.
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : Environment: development
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : No known dispatcher detected.
+[2017-02-23 00:04:01 +0800 Lionels-Mac.local (61982)] INFO : Application: My Application (Development)
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing ActiveJob instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing Net instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing Rails 4 view instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-23 00:04:02 +0800 Lionels-Mac.local (61982)] INFO : Finished instrumentation
+[2017-02-23 00:04:13 +0800 Lionels-Mac.local (61982)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-23 01:30:12 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:30:12 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.076576 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:30:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:30:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.027413 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:30:59 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:30:59 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081825 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:31:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.050574 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:12 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:31:12 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.077518 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:31:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.083207 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:31 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:31:31 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.069272 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:31:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.079634 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:31:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.040337 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:31:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:31:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.082796 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:32:01 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:32:01 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.072163 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:32:31 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:32:31 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.060094 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:32:40 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:32:40 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.082715 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:32:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:32:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.085124 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:32:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:32:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.037443 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:10 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:33:10 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.071863 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:12 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:33:12 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081989 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:33:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.078505 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:31 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:33:31 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.086586 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:33:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.026142 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:33:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081576 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:33:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:33:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.078667 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:01 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:34:01 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.08244 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:34:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.020616 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:12 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:34:12 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.047782 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:34:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081591 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:31 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:34:31 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.123131 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:34:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.080052 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:34:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081594 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:34:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:34:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.072572 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:01 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:35:01 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.069605 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:35:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.029231 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:12 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:35:12 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.069412 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:35:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.03747 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:31 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:35:31 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.073987 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:35:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.045487 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:35:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081831 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:35:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:35:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.047618 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:01 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:36:01 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.075883 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:36:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.07575 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:12 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:36:12 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.08407 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:36:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.01765 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:31 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:36:31 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.080895 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:36:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.080613 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:42 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:36:42 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.083487 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:36:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:36:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.028708 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:02 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:37:02 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.061128 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:37:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.02447 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:13 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:37:13 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.066743 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:37:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.074486 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:32 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:37:32 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.082993 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:37:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.051767 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:43 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:37:43 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081034 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:37:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:37:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.058475 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:02 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:38:02 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.081287 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:38:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.0175 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:13 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:38:13 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.083086 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:21 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:38:21 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.084406 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:32 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:38:32 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.077865 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:38:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.084073 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:43 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:38:43 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.072578 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:38:51 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:38:51 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.072625 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:02 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:39:02 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.039294 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:39:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.080717 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:13 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:39:13 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.084075 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:22 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:39:22 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.077745 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:32 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:39:32 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.044518 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:41 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:39:41 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.041763 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:43 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:39:43 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.047733 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:39:52 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:39:52 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.015296 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:02 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:40:02 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.074141 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:11 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:40:11 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.066227 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:13 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:40:13 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.084727 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:22 +0800 Lionels-Mac.local (61982)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-23 01:40:22 +0800 Lionels-Mac.local (61982)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.078092 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:32 +0800 Lionels-Mac.local (61563)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:40:32 +0800 Lionels-Mac.local (61563)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.057544 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:44 +0800 Lionels-Mac.local (61592)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:40:44 +0800 Lionels-Mac.local (61592)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 31.242308 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 01:40:44 +0800 Lionels-Mac.local (61593)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-23 01:40:44 +0800 Lionels-Mac.local (61593)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 32.956384 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-23 02:59:01 +0800 Lionels-Mac.local (62001)] INFO : Starting Agent shutdown

@@ -10,9 +10,9 @@
         <% question = answer_fields.object.question %>
         <p class="question"><%= question.text %></p>
         <ul class="options">
-          <%= collection_radio_buttons('survey_attempt[answers_attributes]', question.id, question.options, :id, :text) do |b| %>
+          <%= collection_check_boxes('survey_attempt[answers_attributes]', question.id, question.options, :id, :text) do |b| %>
             <li class="radio">
-              <%= b.label { b.radio_button + b.text } %>
+              <%= b.label { b.check_box + b.text } %>
             </li>
           <% end %>
         </ul>

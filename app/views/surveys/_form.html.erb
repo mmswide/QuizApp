@@ -21,7 +21,7 @@
         <%= f.text_area :description, size: '100x5', class: 'form-control', style: 'max-width: 100%;' %>
       </div>
     </div>
-    
+
     <div class='appendable'>
       <% if is_score?(@survey.survey_type) %>
         <br/>
@@ -53,16 +53,41 @@
     var html = $(content.replace(regexp, new_id)).hide();
     var target = $(link).closest("div.field").find(".appendable").first();
 
-    var last_height = 0
-    html.appendTo(target).slideDown({
-      duration: 'slow',
-      progress: function () {
-        delta = $(this).outerHeight(true) - last_height
-        $(window).scrollTop( $(window).scrollTop() + delta );
-        last_height = $(this).outerHeight(true);
-      },
-      complete: function () {
-        $(this).find('input[type=text]').focus();
-      }});
+    if(association == "options" && target.find(".field").length == 0){
+      var opt_answers = ["Probing question","Highlights a feature","Highlights a benefit","Attempts to close the sale","Attempts to upsell"];
+      for(var i=0;i<5;i++){
+        var new_id = new Date().getTime();
+        var regexp = new RegExp("new_" + association, "g");
+        var html = $(content.replace(regexp, new_id)).hide();
+        var target = $(link).closest("div.field").find(".appendable").first();
+
+        html.find('input[type=text]').val(opt_answers[i]);
+        var last_height = 0;
+        html.appendTo(target).slideDown({
+          duration: 'slow',
+          progress: function () {
+            delta = $(this).outerHeight(true) - last_height
+            $(window).scrollTop( $(window).scrollTop() + delta );
+            last_height = $(this).outerHeight(true);
+          },
+          complete: function () {
+            // $(this).find('input[type=text]').focus();
+          }});
+
+      }
+    }else{
+      var last_height = 0
+      html.appendTo(target).slideDown({
+        duration: 'slow',
+        progress: function () {
+          delta = $(this).outerHeight(true) - last_height
+          $(window).scrollTop( $(window).scrollTop() + delta );
+          last_height = $(this).outerHeight(true);
+        },
+        complete: function () {
+          $(this).find('input[type=text]').focus();
+        }});
     }
+
+  }
 </script>
